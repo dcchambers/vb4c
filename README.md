@@ -3,6 +3,16 @@
 vb4c - vim bindings for chrome. This is a fork of
 [cVim](https://github.com/1995eaton/chromium-vim)
 
+![](icons/vb4c-promo-title.png)
+
+# Install
+- vb4c is a **Chrome Extension** and can be installed from the [Chrome Web
+  Store.](https://chrome.google.com/webstore/search/vb4c?hl=en)
+  - This is a brand new release and it is currently pending review from Google.
+    I will update the link here once it is available!
+  - In the mean time you can manually install the extension following the
+    [instructions below](#contributing)
+
 # Help
 ### cVimrc
 
