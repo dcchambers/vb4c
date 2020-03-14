@@ -1,5 +1,8 @@
 # vb4c Changelog
 
+## 0.0.2 - 13 March 2020
+- Fix command bar focus issue (Thanks @tinywrkb and @basyura)
+
 ## 0.0.1 - 09 March 2020
 - Prepare initial release of this fork.
 - Include patch from GitHub user @antonioyon to fix hint functionality after

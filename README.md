@@ -10,8 +10,15 @@ vb4c - vim bindings for chrome. This is a fork of
   Store.](https://chrome.google.com/webstore/search/vb4c?hl=en)
   - This is a brand new release and it is currently pending review from Google.
     I will update the link here once it is available!
-  - In the mean time you can manually install the extension following the
-    [instructions below](#contributing)
+  - In the mean time you can manually install the extension from the
+    [releases](https://github.com/dcchambers/vb4c/releases) page on GitHub.
+    - Download the `.zip` file, extract it, and then manually load the
+      extension in chrome.
+      - Go to `chrome://extensions`
+      - Enable the developer mode toggle.
+      - Select 'Load Unpacked Extension'
+      - Navigate to the directory that you unzipped above.
+      - That's it!
 
 # Help
 ### cVimrc
