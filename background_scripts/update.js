@@ -1,6 +1,6 @@
 var Updates = {
   displayMessage: false,
-  installMessage: 'Welcome to cVim! Here\'s everything you need to know.',
+  installMessage: 'Welcome to vb4c! Here\'s everything you need to know.',
   tabId: null
 };
 
