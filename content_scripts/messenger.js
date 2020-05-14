@@ -161,6 +161,12 @@ port.onMessage.addListener(function(response) {
       Mappings.lastCommand = JSON.parse(request.data);
     }
     break;
+  /*Designed to be added to the "multiwindow" hint command. Don't want to heavily modify this before the code is refactored
+  case 'bringCurrentWindowToFront':
+    chrome.windows.getCurrent((function (win){
+      chrome.windows.update(win.id, {drawAttention: true});
+    }));
+    break;*/
   }
 });
 

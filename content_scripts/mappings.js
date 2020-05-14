@@ -426,6 +426,12 @@ Mappings.actions = {
   createActiveTabbedHint: function() { Hints.create('tabbedActive'); },
   createMultiHint: function() { Hints.create('multi'); },
   createHintWindow: function() { Hints.create('window'); },
+  createHintMultiWindow: function() {
+    window.setTimeout(function() {
+      Hints.create('multiwindow');
+      //PORT('bringCurrentWindowToFront'); //does not function; I think port listeners are destroyed by this point.
+    }, 0);
+  },
   createEditHint: function() { Hints.create('edit'); },
   createHoverHint: function() { Hints.create('hover'); },
   createUnhoverHint: function() { Hints.create('unhover'); },
