@@ -1,4 +1,21 @@
-# What is vb4c?
+# vb4c
+
+# Project Status
+
+Hello, thanks for checking out vb4c! Unfortunately I have made the decision to **archive** this project. My personal interests and professional work have lead me to focus on vastly different things than old javascript code and I do not have the bandwidth to maintain this project. This project is MIT licensed - please feel free to fork and do with it as you wish.
+
+For more information about this decision, please see [this comment](https://github.com/dcchambers/vb4c/issues/23#issuecomment-810694017).
+
+The application will continue to work for a while but as the Chrome developers continue to update Chrome, there may be more bugs and eventually things may break. The *good news* is that the [cVim project](https://github.com/1995eaton/chromium-vim), which this was originally forked from, was [updated in March](https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh) to fix a major issue that was breaking the application.
+
+- Install the cVim extension [here](https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh).
+- There are also a number of other great options:
+  - [Surfingkeys](https://github.com/brookhong/Surfingkeys)
+  - [vimium](https://github.com/philc/vimium/)
+
+**Archived on 4/14/2021.**
+
+---
 
 vb4c - vim bindings for chrome. This is a fork of
 [cVim](https://github.com/1995eaton/chromium-vim)
