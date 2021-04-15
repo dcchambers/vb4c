@@ -175,6 +175,13 @@ Hints.dispatchAction = function(link, shift) {
       noconvert: true
     });
     break;
+  case 'multiwindow':
+    RUNTIME('openLinkWindow', {
+      focused: false,
+      url: link.href,
+      noconvert: true
+    });
+    break;
   case 'script':
     eval(settings.FUNCTIONS[this.scriptFunction])(link);
     break;
@@ -674,6 +681,7 @@ Hints.genHints = function(M) {
   return codes0.concat(codes1);
 };
 
+///NOTE: "type" is a string, "multi" is a boolean. "multi" seems to go unused; multi, multiyank, and multiimage don't use the multi param. The dispatchAction function only checks it when trying to make new tabs that have "tabbed" in the name of the type.
 Hints.create = function(type, multi) {
   var self = this;
   window.setTimeout(function() {
@@ -742,6 +750,7 @@ Hints.create = function(type, multi) {
           tabbed:        '(tabbed)',
           tabbedActive:  '(tabbed)',
           window:        '(window)',
+          multiwindow:   '(multi-window)',
           edit:          '(edit)',
           hover:         '(hover)',
           unhover:       '(unhover)',
